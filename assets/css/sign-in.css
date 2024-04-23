@@ -1,0 +1,259 @@
+.autorization{
+    display: flex;
+    flex-direction: column;
+    margin-top: 108px;
+}
+
+.auth__form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 39px;
+    padding-left: 113px;
+    padding-right: 113px;
+    background-color: #fff;
+    border-radius: 22px;
+
+   
+}
+
+.form__title{
+    margin: 0;
+    margin-bottom: 43px;
+    font-family: Gilroy;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.6px;
+    background: linear-gradient(255deg, #FF5050 8.03%, #FD7E14 80.29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form__input{
+    background-color: #F7F9FD;
+    border: none;
+    width: 483px;
+    padding-left: 29px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    outline: none;
+    margin-bottom: 25px;
+    border-radius: 12px;
+     color: rgba(6, 9, 37, 0.70); font-size: 20.57px; font-family: Gilroy; font-weight: 500; line-height: 28.79px; word-wrap: break-word
+}
+
+.input__image{
+    background-image: url(../images/glassForm.svg);
+    background-color: transparent;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    top: 50px;
+    left: 470px; 
+    margin-left: -50px;
+    margin-top: 15px;
+
+
+}
+
+.auth__link{
+    text-align: right; 
+    color: rgba(6, 9, 37, 0.38); 
+    font-size: 18px; font-family: Gilroy; font-weight: 500; line-height: 25.20px; word-wrap: break-word;
+    margin: 0;
+    
+}
+
+
+.input__captch-image{
+    width: 129px;
+}
+
+.captch__input{
+    width: 262px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    padding-left: 29px;
+    margin-top: 10px;
+    background-color: #F7F9FD;
+ color: rgba(6, 9, 37, 0.70); font-size: 20.57px; font-family: Gilroy; font-weight: 500; line-height: 28.79px; word-wrap: break-word;
+}
+
+.form__submit{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(255deg, #FF5050 8.03%, #FD7E14 80.29%);
+    border: none;
+    border-radius: 12px;
+    width: 512px;
+    height: 64px;
+    cursor: pointer;
+    color: white; font-size: 18.14px; font-family: Gilroy; font-weight: 600; line-height: 25.39px; word-wrap: break-word;
+}
+
+.auth__subtitle{
+    color: rgba(6, 9, 37, 0.38); font-size: 18px; font-family: Gilroy; font-weight: 500; line-height: 25.20px; word-wrap: break-word;
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+.auth__subtitle-link{
+    color: #FF5050; font-size: 18px; font-family: Gilroy; font-weight: 700; line-height: 25.20px; word-wrap: break-word;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+#invite{
+    margin-bottom: 0;
+}
+
+#AuthPassword{
+    margin-bottom: 0;
+}
+
+.image__reg{
+    top: -80px;
+}
+
+.input__captch-image{
+    margin-top: 45px;
+}
+
+.auth__subtitle-link{
+    text-decoration: none;
+}
+
+
+
+.reset__pasword{
+    margin-bottom: 0;
+}
+
+.reset__captch{
+    margin-top: 45px;
+}
+.reset__input{
+    margin-bottom: 0;
+}
+
+.reset__submit{
+    margin-bottom: 63px;
+ 
+}
+
+.reset__image{
+    
+}
+
+.inputs__button{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.input__numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+.input__number{
+    width: 74px; 
+    height: 77.02px;
+     background: white;
+     box-shadow: 0px 12.081632614135742px 42.28571319580078px rgba(77, 146, 213, 0.15); 
+    border-radius: 18.12px; 
+     align-items: center; 
+     border: none;
+     text-align: center;
+}
+
+.auth__subtitle-code{
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+
+
+@media  screen and (max-width: 790px){
+.auth__form{
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+}
+
+
+
+@media  screen and (max-width: 685px){
+    .form__input{
+        width: 400px;
+    }
+    .auth__form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form__submit{
+        width: 400px;
+    }
+    .form__title{
+        font-size: 36px;
+    }
+    .input__numbers{
+        gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input__number{
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+@media  screen and (max-width: 510px){
+    .form__input{
+        width: 290px;
+        font-size: 16px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+    }
+    .auth__form{
+        padding: 0;
+        padding-top: 15px;
+        padding-left: 7px;
+        padding-right: 7px;
+        align-items: center;
+    }
+    .form__submit{
+        width: 290px;
+    }
+    .input__image{
+        margin-top: 0px;
+    }
+    .form__submit{
+        font-size: 15px;
+    }
+    .inputs__button {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 294px;
+    }
+}
